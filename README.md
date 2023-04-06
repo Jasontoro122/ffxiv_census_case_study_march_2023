@@ -34,7 +34,7 @@ Otherwise, the database has clean information. A random sample of characters man
 ## 1. General Population of Grand Companies
 As showcased by the website itself, we have a few insights that we can immediately make concering the number of characters in each grand company:  
 
-![Grand Company General Population Synopsis](march_2023_census_grand_company_dashboards/General Populations.png "General Population Dashboard")
+![Grand Company General Population Synopsis](/march_2023_census_grand_company_dashboards/General Populations.png "General Population Dashboard")
 
 This dashboard contains three significant tables. On the right, the general population is shown. It showcases that the Order of the Twin Adder is vastly more populous than either of the other two Grand Company options.  
 The top left chart shows that Hyur is the preferred race choice in the Order of the Twin Adder and the Immortal Flames. However, the Miqo'te race is preferred in the Maelstrom.  
@@ -44,15 +44,22 @@ In order to properly analyze this rather large discrepency, it is important to c
 
 ## 2. Endgame Populations of Grand Companies
 For the purposes of this data chart, I am defining "endgame" as instances where a character reached level 90 – the maximum possible level as of March 2023 – in one or more classes that match the category.  
-For our purposes, "combat classes" include all classes in the "Disciples of War" and "Disciples of Magic" categories: Gladiator, Pugilist, Marauder, Dark Knight, Gunbreaker, Lancer, Archer, Rogue, Machinist, Samurai, Dancer, Arcanist, Thaumaturge, Red Mage, Conjurer, Astrologian, and Sage. This category also covers all of the additional classes – called "Jobs" – that the class evolves into: Paladin, Warrior, Monk, Dragoon, Ninja, Bard, Black Mage, Summoner, White Mage, and Scholar.  
+For our purposes, "combat classes" include all classes and jobs in the "Disciples of War" and "Disciples of Magic" categories: Gladiator, Pugilist, Marauder, Lancer, Archer, Rogue, Arcanist, Thaumaturge, and Conjurer. This category also covers all of the additional jobs that a class evolves into: Paladin, Warrior, Monk, Dragoon, Ninja, Bard, Black Mage, Summoner, White Mage, and Scholar. Finally, this also includes all of the combat jobs that have no classes to begin with: Dark Knight, Gunbreaker, Machinist, Samurai, Dancer, Red Mage, Astrologian, and Sage.  
 Non-combat classes include all classes in the "Disciples of the Hand" and "Disciples of the Land" categories, including: Carpenter, Blacksmith, Armorer, Goldsmith, Leatherworker, Weaver, Alchemist, Culinarian, Miner, Botanist, and Fisher.  
 The following is what was obtained:  
 
-![Grand Company Level 90 Dashboard](march_2023_census_grand_company_dashboards/Endgame Synopsis.png "Endgame Dashboard")
+![Grand Company Level 90 Dashboard](/march_2023_census_grand_company_dashboards/Endgame Synopsis.png "Endgame Dashboard")
 
 Here, the Maelstrom is proving to have the larger population – in both combat and non-combat classes. The ratios are about the same between grand companies, though non-combat classes are significantly lower in number than their combat-based peers. This is unsurprising: combat classes are required to progress the story in *Final Fantasy XIV.* In addition, having a higher level combat class makes it easier to progress the non-combat classes, through access to higher level materials, areas, and quests for the crafting and gathering roles.
 
 ## 3. Grand Company Rank
-To conclude, I also wanted to look at how players were interacting with the Grand Company Rank system. Characters join their grand company as the rank "Private Third Class," with each grand company having a slightly different naming schema for each rank. As characters interact with their personal Grand Company, they can promote. 
+To conclude, I also wanted to look at how players were interacting with the Grand Company Rank system. Characters join their grand company as the rank "Private Third Class," with each grand company having a slightly different naming schema for each rank. As characters interact with their personal Grand Company, they can promote. From Private Third Class, they promote to: Private Second Class, Private First Class, Corporal, Sergeant Third Class, Sergeant Second Class, Sergeant First Class, Chief Sergeant, Second Lieutenant, First Lieutenant, and Captain. The following dashboard was made compiling the information:  
 
-!(Grand Company Ranks Dashboard)[ffxiv_census_case_study_march_2023/march_2023_census_grand_company_dashboards/Player Ranks.png "Rank Dashboard")
+![Grand Company Ranks Dashboard](ffxiv_census_case_study_march_2023/march_2023_census_grand_company_dashboards/Player Ranks.png "Rank Dashboard")
+
+Here, we see two particularly interesting points. Once again, the Maelstrom and Immortal Flames have similar patterns in population, but the Order of the Twin Adder has significantly more Private Third Class entries.   
+Private Third Class is by far the most populous rank, as expected. However, the second most populous rank is Second Lieutenant. This is the third-to-final rank in the game. So, players are advancing through most of the ranks before stopping at this rank in particular.
+
+## Data Analysis
+From here, we can actually get some rather interesting pieces of data about the grand companies. From these three databases, the following trends reveal themselves:  
+1. **New players seem to prefer the Order of the Adder.** The Order of the Adder is home to Gridania. Gridania is the starting location of the Lancer, Archer, and Conjurer classes. Conjurer is the only healer available at character creation, while Lancer and Archer are two of the starting damage classes. Ul'dah – the home of the Immortal Flames – also has two damage classes – Pugilist and Thaumaturge – but has the Gladiator as it's non-damage class. Gladiator is one of two Tank classes, the other being Warrior. Warrior and Arcanist both begin play in Limsa Lominsa, home to the Maelstrom. While it is impossible to precisely pin why players are choosing the Order of the Adder on first playthrough, it is likely because most players start as the only healer or two of the more exciting Damage class roles. Then, when they choose a Grand Company, they are more likely to gravitate towards the company of their starting city. 
