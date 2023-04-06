@@ -34,7 +34,7 @@ Otherwise, the database has clean information. A random sample of characters man
 ## 1. General Population of Grand Companies
 As showcased by the website itself, we have a few insights that we can immediately make concering the number of characters in each grand company:  
 
-![Grand Company General Population Synopsis](/march_2023_census_grand_company_dashboards/General Populations.png "General Population Dashboard")
+![Grand Company General Population Synopsis](/march_2023_census_grand_company_dashboards/General_Populations.png "General Population Dashboard")
 
 This dashboard contains three significant tables. On the right, the general population is shown. It showcases that the Order of the Twin Adder is vastly more populous than either of the other two Grand Company options.  
 The top left chart shows that Hyur is the preferred race choice in the Order of the Twin Adder and the Immortal Flames. However, the Miqo'te race is preferred in the Maelstrom.  
@@ -48,14 +48,14 @@ For our purposes, "combat classes" include all classes and jobs in the "Disciple
 Non-combat classes include all classes in the "Disciples of the Hand" and "Disciples of the Land" categories, including: Carpenter, Blacksmith, Armorer, Goldsmith, Leatherworker, Weaver, Alchemist, Culinarian, Miner, Botanist, and Fisher.  
 The following is what was obtained:  
 
-![Grand Company Level 90 Dashboard](/march_2023_census_grand_company_dashboards/Endgame Synopsis.png "Endgame Dashboard")
+![Grand Company Level 90 Dashboard](/march_2023_census_grand_company_dashboards/Endgame_Synopsis.png "Endgame Dashboard")
 
 Here, the Maelstrom is proving to have the larger population – in both combat and non-combat classes. The ratios are about the same between grand companies, though non-combat classes are significantly lower in number than their combat-based peers. This is unsurprising: combat classes are required to progress the story in *Final Fantasy XIV.* In addition, having a higher level combat class makes it easier to progress the non-combat classes, through access to higher level materials, areas, and quests for the crafting and gathering roles.
 
 ## 3. Grand Company Rank
 To conclude, I also wanted to look at how players were interacting with the Grand Company Rank system. Characters join their grand company as the rank "Private Third Class," with each grand company having a slightly different naming schema for each rank. As characters interact with their personal Grand Company, they can promote. From Private Third Class, they promote to: Private Second Class, Private First Class, Corporal, Sergeant Third Class, Sergeant Second Class, Sergeant First Class, Chief Sergeant, Second Lieutenant, First Lieutenant, and Captain. The following dashboard was made compiling the information:  
 
-![Grand Company Ranks Dashboard](ffxiv_census_case_study_march_2023/march_2023_census_grand_company_dashboards/Player Ranks.png "Rank Dashboard")
+![Grand Company Ranks Dashboard](ffxiv_census_case_study_march_2023/march_2023_census_grand_company_dashboards/Player_Ranks.png "Rank Dashboard")
 
 Here, we see two particularly interesting points. Once again, the Maelstrom and Immortal Flames have similar patterns in population, but the Order of the Twin Adder has significantly more Private Third Class entries.   
 Private Third Class is by far the most populous rank, as expected. However, the second most populous rank is Second Lieutenant. This is the third-to-final rank in the game. So, players are advancing through most of the ranks before stopping at this rank in particular.
@@ -70,3 +70,9 @@ From here, we can actually get some rather interesting pieces of data about the 
 While most of these actions do not necessarily suggest a problem with *FFXIV*, there are minor points where editing content around the starting areas could vastly improve how the Grand Company system interacts with players. I suggest the following:  
 1. **Change how starting classes begin play.** At the moment, new players are favoring Gridania, and for good reason. New Healers must begin play in Gridania, and if they wish to play with friends immediately, their friends will also have to begin play in the same city. If additional starting roles are added to Limsa Lominsa or Ul'dah, those Grand Companies are more likely to allure players. This can cause the staggering player population in the Order of the Twin Adder to potentially flatten.
 2. **Entice players with better rewards in the Grand Company Ranks.** At the moment, the Second Lieutenant Rank offers many different rewards for players to dig for. First Lieutenant requires much more dedication, with a new mechanic called "Adventurer Squadrons," in order to get its promotion. And Captain requires players engage with Player vs. Player content as well as additional "Adventurer Squandron" play. In order to entice players to continue their Grand Company journey, more rewards could be presented at higher level rankings. For instance, once a player reaches First Lieutenant, then they could be invited to events with Grand Company-themed paraphenalia. Or, at Captain rank, the player could get additional bonuses towards obtaining the Grand Company currency called Seals.
+3. **Learn more about why players are sticking to the game longer while in the Maelstrom.** As shown in several synopses, the Maelstrom appears to be the most popular when it comes to endgame content. Unfortunately, our current database does not offer significant detail as to why endgame players are interacting with Maelstrom for such an extended period of time. The Grand Companies offer similar rewards in terms of mounts and items in their shops. Additional analysis, such as a player survey, would be appreciated to learn more about this specific interaction. For instance, learning if location, armor color, or some other extrinsic reward causes more dedicated audiences to enjoy the Maelstrom more than the other two Grand Companies.
+
+## Additional Resources
+If you would like to learn more about this project, the (Tableau Public Page)[https://public.tableau.com/app/profile/jason.toro.mccue/viz/FFXIVCaseStudyProjectMarch2023/EndgameSynopsis#1] can be accessed to more clearly see each chart used in this project for data analysis.  
+In addition, for the SQL queries used to access the database to come to these conclusions, follow this link [here](https://docs.google.com/document/d/11NIh_aciSZMVYxV6rEopzuNk2PHaP84-kZ8OuG2K9lI/edit?usp=sharing).  
+Thank you so much for reading along with me! *FFXIV* is a joy to analyze, since there's just so much to look for. With luck, this is just the start of my data storytelling journey!
