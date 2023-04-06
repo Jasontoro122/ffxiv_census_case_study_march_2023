@@ -55,7 +55,7 @@ Here, the Maelstrom is proving to have the larger population – in both combat 
 ## 3. Grand Company Rank
 To conclude, I also wanted to look at how players were interacting with the Grand Company Rank system. Characters join their grand company as the rank "Private Third Class," with each grand company having a slightly different naming schema for each rank. As characters interact with their personal Grand Company, they can promote. From Private Third Class, they promote to: Private Second Class, Private First Class, Corporal, Sergeant Third Class, Sergeant Second Class, Sergeant First Class, Chief Sergeant, Second Lieutenant, First Lieutenant, and Captain. The following dashboard was made compiling the information:  
 
-![Grand Company Ranks Dashboard](ffxiv_census_case_study_march_2023/march_2023_census_grand_company_dashboards/Player_Ranks.png "Rank Dashboard")
+![Grand Company Ranks Dashboard](/march_2023_census_grand_company_dashboards/Player_Ranks.png "Rank Dashboard")
 
 Here, we see two particularly interesting points. Once again, the Maelstrom and Immortal Flames have similar patterns in population, but the Order of the Twin Adder has significantly more Private Third Class entries.   
 Private Third Class is by far the most populous rank, as expected. However, the second most populous rank is Second Lieutenant. This is the third-to-final rank in the game. So, players are advancing through most of the ranks before stopping at this rank in particular.
